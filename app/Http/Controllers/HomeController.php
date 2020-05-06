@@ -27,7 +27,7 @@ class HomeController extends Controller
     public function index()
     {
         
-        $books=Book::where('user_id',Auth::user()->id)->orderBy('created_at','desc')->simplePaginate(7);
+        $books=Book::where('user_id',Auth::user()->id)->orderBy('created_at','desc')->get();
        
         
         return view('home')->with('books',$books);
