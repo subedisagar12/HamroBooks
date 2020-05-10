@@ -653,3 +653,18 @@
 #app .dropdown-menu a:hover{
   background: #E170B0;
 }
+
+.sell-btn{
+  border:1px solid black;
+  border-radius:0;
+ 
+}
+
+.sell-btn:hover{
+  background: #FF0065;
+      border:1px solid white;
+      color:white;
+      transition-property: background, color,border ;
+      transition-duration:0.6s;
+      transition-timing-function:ease-out;
+}

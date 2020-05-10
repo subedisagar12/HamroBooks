@@ -30,7 +30,7 @@
     <div id="app">
     <nav class="navbar navbar-expand-sm ">
             <div class="container">
-                <a href="" class="navbar-brand">HamroBooks</a>
+                <a href="{{url('/')}}" class="navbar-brand">HamroBooks</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
